@@ -4,6 +4,7 @@ metadata:
   name: test-backstage-kubernetes-component
   annotations:
     backstage.io/kubernetes-id: test-backstage-kubernetes-component
+    janus-idp.io/tekton-enabled : 'true'
 spec:
   lifecycle: production
   owner: my-team
